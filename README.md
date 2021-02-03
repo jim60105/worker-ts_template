@@ -11,7 +11,7 @@
    1. CF_ACCOUNT_ID: 由你的Cloudflare Account Home→Workers的右側找到，[或是從wangler cli取得](https://developers.cloudflare.com/workers/learning/getting-started#6-preview-your-project)
    2. CF_API_TOKEN: 由你的Cloudflare Profile→API Token→Create Token產生，[參照說明](https://developers.cloudflare.com/workers/cli-wrangler/authentication#generate-tokens)
    3. CF_ZONE_ID: 可以在你的網域總覧右側找到，[參照說明](https://developers.cloudflare.com/workers/learning/getting-started#optional-configure-for-deploying-to-a-registered-domain)
-   4. SOMEENV: 其它Secrets，在此專案中搜尋 `SOMEENV` 以尋找使用範例
+   4. SOMEENV: 其它Secrets，在此專案中搜尋 `SOMEENV` 以尋找範例和修改處
 3. git push to master branch觸發Github Action，建立worker
 4. 至Cloudflare Worker設定route
 
