@@ -1,7 +1,7 @@
 {
-  "name": "pname",
-  "version": "1.0.0",
-  "description": "Cloudflare worker Img Router",
+  "name": "worker-ts_template",
+  "version": "0.0.1",
+  "description": "Cloudflare worker TS Template",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -11,7 +11,7 @@
     "test": "npm run test:clean && npm run transpile && mocha --require source-map-support/register --recursive transpiled/test",
     "transpile": "tsc --project ./test"
   },
-  "author": "jim60105",
+  "author": "author",
   "license": "MIT",
   "devDependencies": {
     "@cloudflare/workers-types": "^2.0.0",
